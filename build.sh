@@ -1,5 +1,5 @@
-mkdir system
-mkdir vendor
+mkdir -p system
+mkdir -p vendor
 
 if [ "$#" -lt 1 ]; then
     echo "No arguments supplied"
