@@ -25,10 +25,40 @@
     chown system radio /sys/class/sensors/proximity_sensor/prox_offset_pass
     chown system radio /sys/class/sensors/proximity_sensor/prox_trim
     chown system radio /sys/class/sensors/proximity_sensor/prox_probe
-    chown system radio /sys/class/sensors/proximity_sensor/modify_settings
-    chown system radio /sys/class/sensors/proximity_sensor/settings_thd_low
-    chown system radio /sys/class/sensors/proximity_sensor/settings_thd_high
-    chown system radio /sys/class/sensors/proximity_sensor/pre_test
+    chown system radio /sys/class/sensors/proximity_sensor/check_far_state
+    chown system radio /sys/class/sensors/proximity_sensor/pocket_prox
+# Light_sensor
+    chown system radio /sys/class/sensors/light_sensor/lux
+    chown system radio /sys/class/sensors/light_sensor/raw_data
+    chown system radio /sys/class/sensors/light_sensor/vendor
+    chown system radio /sys/class/sensors/light_sensor/name
+    chown system radio /sys/class/sensors/light_sensor/adata0
+    chown system radio /sys/class/sensors/light_sensor/adata1
+    chown system radio /sys/class/sensors/light_sensor/adata2
+    chown system radio /sys/class/sensors/light_sensor/adata3
+    chown system radio /sys/class/sensors/light_sensor/adata4
+    chown system radio /sys/class/sensors/light_sensor/adata5
+    chown system radio /sys/class/sensors/light_sensor/astep
+    chown system radio /sys/class/sensors/light_sensor/again
+    chown system radio /sys/class/sensors/light_sensor/wtime
+    chown system radio /sys/class/sensors/light_sensor/als_ch_cfg
+    chown system radio /sys/class/sensors/light_sensor/fifo_level
+    chown system radio /sys/class/sensors/light_sensor/fifo_overflowx
+    chown system radio /sys/class/sensors/light_sensor/fifo_reset
+# Gyro_sensor
+    chown system radio /sys/class/sensors/gyro_sensor/power_on
+    chown system radio /sys/class/sensors/gyro_sensor/power_off
+    chown system radio /sys/class/sensors/gyro_sensor/temperature
+    chown system radio /sys/class/sensors/gyro_sensor/selftest
+    chown system radio /sys/class/sensors/gyro_sensor/selftest_dps
+    chown system radio /sys/class/sensors/gyro_sensor/vendor
+    chown system radio /sys/class/sensors/gyro_sensor/name
+# Magnetic_sensor
+    chown system radio /sys/class/sensors/magnetic_sensor/raw_data
+    chown system radio /sys/class/sensors/magnetic_sensor/vendor
+    chown system radio /sys/class/sensors/magnetic_sensor/name
+    chown system radio /sys/class/sensors/magnetic_sensor/selftest
+
 # Grip_sensor
     chown system radio /sys/class/sensors/grip_sensor/name
     chown system radio /sys/class/sensors/grip_sensor/vendor
